@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The content of the Tag is:" android:gravity="center" android:textColor="#ffffff" android:textSize="18dp" android:textStyle="bold" android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" android:layout_marginTop="10dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:textSize="17dp" android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tag RTD Type:" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp" android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tag_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+
+</LinearLayout>

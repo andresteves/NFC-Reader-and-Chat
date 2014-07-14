@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write the text to send to the other device:" android:textColor="#ffffff" android:layout_marginTop="100dp" android:layout_marginBottom="10dp" android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/textWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Response:" android:layout_marginTop="20dp" android:textColor="#ffffff" android:textSize="17dp" android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/mInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
